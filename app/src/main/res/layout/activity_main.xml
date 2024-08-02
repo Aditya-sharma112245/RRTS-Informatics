@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/rrtstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="41dp"
+        android:gravity="center_horizontal"
+        android:padding="1dp"
+        android:text="R R T S"
+        android:textAlignment="center"
+        android:textColor="#2BD842"
+        android:textSize="40sp"
+       android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/informaticstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_horizontal"
+        android:padding="1dp"
+        android:text="INFORMATICS"
+        android:textAlignment="center"
+        android:textColor="#1F546C"
+        android:textSize="20sp"
+      android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/logo"
+        app:layout_constraintTop_toBottomOf="@id/rrtstext" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="26dp"
+        android:adjustViewBounds="true"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rrtstext" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:text="STATIONS &amp; FEEDER &amp; CHARGING FACILITIES"
+        android:textColor="#1F546C"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape"
+        android:padding="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        android:text="SAHIBABAD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+
+        android:background="@drawable/button_shape"
+        android:padding="20dp"
+        android:text="GHAZIABAD"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="142dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape"
+        android:padding="20dp"
+        android:textSize="13sp"
+        android:text="GULDHAR"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape"
+        android:padding="20dp"
+        android:text="DUHAI"
+        android:textSize="13sp"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape"
+        android:padding="20dp"
+        android:text="DUHAI-DEPOT"
+        android:textSize="13sp"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="142dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape"
+        android:padding="20dp"
+        android:textSize="13sp"
+        android:text="MURADNAGAR"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape"
+        android:padding="22dp"
+        android:text="MODINAGAR(N)"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_shape"
+        android:padding="22dp"
+        android:text="MODINAGAR(S)"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/mixed_background"
+        android:backgroundTint="#2F4F4F"
+        android:padding="16dp"
+        android:text="FEEDBACK"
+        android:textColor="#F6F3F3"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/pathfinder"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/mixed_background"
+        android:padding="16dp"
+        android:text="PATH-FINDER"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:backgroundTint="@null"
+        android:backgroundTint="#2F4F4F"
+        android:textColor="#F6F3F3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/mixed_background"
+        android:backgroundTint="#2F4F4F"
+        android:padding="16dp"
+        android:text="RRTS IMPACT"
+        android:textColor="#F6F3F3"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pathfinder" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textSize="12sp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/mixed_background"
+        android:backgroundTint="#2F4F4F"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:text="FEATURES"
+        android:textColor="#F6F3F3"
+        app:backgroundTint="@null"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="80dp"
+        android:padding="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rrtstext"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
